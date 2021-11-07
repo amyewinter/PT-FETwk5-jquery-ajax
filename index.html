@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <div id="content">
+    <div id="game">
+      <div id="console">
+        <h2>Let's Play Tic Tac Toe!</h2>
+        <div class="alert alert-success" id="winAlert">
+        </div>
+        <div id="msgs">Click "Start Game" to begin!</div>
+        
+      </div>
+
+      <div id="board" class="container p2">
+        <div class="row" id="buttons">
+          <div class="col-sm-6">
+          <input
+                type="button"
+                class="btn btn-sm btn-warning btn-block p2"
+                value="Start Game"
+                id="startBtn"
+              /></div><div class="col-sm-6">
+              <input
+              type="button"
+              class="btn btn-sm btn-warning btn-block p2"
+              value="Reset Game"
+              id="resetBtn"
+            /></div>
+            </div>
+
+        <div class="row">
+          <div class="col-sm-4 cell" id="c1"></div>
+          <div class="col-sm-4 cell" id="c2"></div>
+          <div class="col-sm-4 cell" id="c3"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 cell" id="c4"></div>
+          <div class="col-sm-4 cell" id="c5"></div>
+          <div class="col-sm-4 cell" id="c6"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 cell" id="c7"></div>
+          <div class="col-sm-4 cell" id="c8"></div>
+          <div class="col-sm-4 cell" id="c9"></div>
+        </div>
+        
+      </div>      
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+body {
+  background: white;
+  font-size: larger;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  margin-left: auto;
+}
+
+input {
+  padding-top: 2%;
+  width: 95%;
+}
+
+.row {
+  height: 28%;
+  padding: 2%;
+}
+
+.cell {
+  background-color: white;
+  border: 0px transparent;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+.X {
+  color: #20c997;
+}
+
+.O {
+  color: #6f42c1;
+}
+
+#content {
+  width: 225 px;
+}
+
+#game {
+  margin: 5%;
+  padding: 5%;
+  background-color: #2d92cc;
+  height: 100vh;
+}
+
+#console {
+  width: 50%;
+  margin: auto;
+}
+
+#msgs {
+  border: 1px solid #ffc107;
+  border-radius: 2%;
+  height: 40%;
+  color: #ffc107;
+  padding: 1rem;
+}
+
+#buttons {
+  height: 18%;
+}
+
+#board {
+  background-color: #0dcaf0;
+  height: 50%;
+  width: 50%;
+  padding: 1rem;
+}
+
+#winAlert {
+  display: none;
+  margin-top: 3%;
+  text-align: center;
+  color: #2d92cc;
+  background-color: #ffc107;
+}
